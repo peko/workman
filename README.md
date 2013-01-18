@@ -3,8 +3,8 @@
 <img src="http://www.workmanlayout.com/blog/wp-content/uploads/2012/11/copy-g49133.png"/>
 
 This repo contains some implementaitions of the Workman keyborad layout for windows / OS X / linux (ubuntu, arch).
-But I'm do not recomend to use its, because there is a [better realisations](https://github.com/deekayen/workman).
-This repo also contains an phonetic implementations of layout for russian language, so it still can be usefull.
+But I'm do not recomend to use it, because there is an [better realisations](https://github.com/deekayen/workman).
+This repo also contains a phonetic implementation for russian language, so it still can be usefull.
 
 ## Links: ##
 
