@@ -13,6 +13,8 @@ This repo also contains a phonetic implementation for russian language, so it st
  * [Article](http://viralintrospection.wordpress.com/2010/09/06/a-different-philosophy-in-designing-keyboard-layouts/)
  * [Online trainer](http://klava.org/#eng_basic)
 
+### UPDATE: Latest ubuntu versions alredaty have workman installed! ###
+
 ## Introduction ##
 
 **EN** 
