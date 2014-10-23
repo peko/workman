@@ -6,14 +6,14 @@ This repo contains some implementaitions of the Workman keyborad layout for wind
 But I'm do not recomend to use it, because there is an [better realisations](https://github.com/deekayen/workman).
 This repo also contains a phonetic implementation for russian language, so it still can be usefull.
 
+### UPDATE: Latest ubuntu versions already have the workman layout installed! ###
+
 ## Links: ##
 
  * [Offical site](http://www.workmanlayout.com/)
  * [Official git](https://github.com/deekayen/workman)
  * [Article](http://viralintrospection.wordpress.com/2010/09/06/a-different-philosophy-in-designing-keyboard-layouts/)
  * [Online trainer](http://klava.org/#eng_basic)
-
-### UPDATE: Latest ubuntu versions alredaty have workman installed! ###
 
 ## Introduction ##
 
