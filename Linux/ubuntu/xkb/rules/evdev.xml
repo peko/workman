@@ -4362,19 +4362,18 @@
             </languageList>
           </configItem>
         </variant>
-
         <variant>
           <configItem>
-            <name>workman_ru</name>
-            <description>Workman (Russian)</description>
+            <name>workman</name>
+            <description>Russian (Workman)</description>
             <languageList>
               <iso639Id>rus</iso639Id>
             </languageList>
           </configItem>
-        </variant>
-
+	</variant>
       </variantList>
     </layout>
+
     <layout>
       <configItem>
         <name>rs</name>
