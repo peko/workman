@@ -4161,6 +4161,15 @@
             </languageList>
           </configItem>
         </variant>
+        <variant>
+           <configItem>
+             <name>workman</name>
+             <description>Russian (Workman)</description>
+             <languageList>
+               <iso639Id>rus</iso639Id>
+             </languageList>
+           </configItem>
+         </variant>
       </variantList>
     </layout>
     <layout>
@@ -4360,6 +4369,15 @@
             </languageList>
           </configItem>
         </variant>
+        <variant>
+           <configItem>
+             <name>workman</name>
+             <description>Russian (Workman)</description>
+             <languageList>
+               <iso639Id>rus</iso639Id>
+             </languageList>
+           </configItem>
+         </variant>
       </variantList>
     </layout>
     <layout>
@@ -4424,6 +4442,15 @@
             </languageList>
           </configItem>
         </variant>
+        <variant>
+           <configItem>
+             <name>workman</name>
+             <description>Russian (Workman)</description>
+             <languageList>
+               <iso639Id>rus</iso639Id>
+             </languageList>
+           </configItem>
+         </variant>
       </variantList>
     </layout>
     <layout>
@@ -4764,6 +4791,15 @@
             </languageList>
           </configItem>
         </variant>
+        <variant>
+           <configItem>
+             <name>workman</name>
+             <description>Russian (Workman)</description>
+             <languageList>
+               <iso639Id>rus</iso639Id>
+             </languageList>
+           </configItem>
+         </variant>
       </variantList>
     </layout>
     <layout>
@@ -4816,6 +4852,15 @@
             </languageList>
           </configItem>
         </variant>
+        <variant>
+           <configItem>
+             <name>workman</name>
+             <description>Russian (Workman)</description>
+             <languageList>
+               <iso639Id>rus</iso639Id>
+             </languageList>
+           </configItem>
+         </variant>
       </variantList>
     </layout>
     <layout>
@@ -4944,6 +4989,15 @@
             </languageList>
           </configItem>
         </variant>
+        <variant>
+           <configItem>
+             <name>workman</name>
+             <description>Russian (Workman)</description>
+             <languageList>
+               <iso639Id>rus</iso639Id>
+             </languageList>
+           </configItem>
+         </variant>
       </variantList>
     </layout>
     <layout>
