@@ -43,7 +43,7 @@ xkb_symbols "workman" {
     key <AC05> { [  Cyrillic_ghe,  Cyrillic_GHE,    dead_diaeresis,        asciitilde ] }; // g
     key <AC06> { [ Cyrillic_yeru, Cyrillic_YERU,        dead_caron,        asciitilde ] }; // y
     key <AC07> { [   Cyrillic_en,   Cyrillic_EN,        Cyrillic_e,        Cyrillic_E ] }; // n
-    key <AC08> { [   Cyrillic_ie,   Cyrillic_IE,       Cyrillic_io,        Cyrilic_IO ] }; // e
+    key <AC08> { [   Cyrillic_ie,   Cyrillic_IE,       Cyrillic_io,       Cyrillic_IO ] }; // e
     key <AC09> { [    Cyrillic_o,    Cyrillic_O,            iacute,            Iacute ] }; // o
     key <AC10> { [    Cyrillic_i,    Cyrillic_I,   Cyrillic_shorti,   Cyrillic_SHORTI ] }; // i
     key <AC11> { [    apostrophe,      quotedbl,            otilde,            Otilde ] }; 

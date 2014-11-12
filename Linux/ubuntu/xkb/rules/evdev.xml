@@ -1449,7 +1449,6 @@
          </variant>
       </variantList>
     </layout>
-
     <layout>
       <configItem>
         <name>af</name>
@@ -4201,7 +4200,6 @@
         </variant>
       </variantList>
     </layout>
-    
     <layout>
       <configItem>
         <name>ru</name>
@@ -4362,18 +4360,8 @@
             </languageList>
           </configItem>
         </variant>
-        <variant>
-          <configItem>
-            <name>workman</name>
-            <description>Russian (Workman)</description>
-            <languageList>
-              <iso639Id>rus</iso639Id>
-            </languageList>
-          </configItem>
-	</variant>
       </variantList>
     </layout>
-
     <layout>
       <configItem>
         <name>rs</name>
