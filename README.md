@@ -8,6 +8,10 @@ This repo also contains a phonetic implementation for russian language, so it st
 
 ### UPDATE: Latest ubuntu versions already have the workman layout installed! ###
 
+<img src="https://github.com/peko/workman/blob/master/doc/workman_us.png"/>
+
+<img src="https://github.com/peko/workman/blob/master/doc/workman_ru.png"/>
+
 ## Links: ##
 
  * [Offical site](http://www.workmanlayout.com/)
