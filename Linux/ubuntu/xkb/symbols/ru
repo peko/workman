@@ -703,7 +703,7 @@ xkb_symbols "workman" {
     key <AD01> { [  Cyrillic_ya,   Cyrillic_YA                                    ] }; // q 
     key <AD02> { [  Cyrillic_de,   Cyrillic_DE                                    ] }; // d 
     key <AD03> { [  Cyrillic_er,   Cyrillic_ER                                    ] }; // r 
-    key <AD04> { [  Cyrillic_sha, Cyrillic_sha,  Cyrillic_shcha,   Cyrillic_SHCHA ] }; // w 
+    key <AD04> { [  Cyrillic_sha, Cyrillic_Sha,  Cyrillic_shcha,   Cyrillic_SHCHA ] }; // w 
     key <AD05> { [  Cyrillic_be,   Cyrillic_BE                                    ] }; // b
     key <AD06> { [ Cyrillic_zhe,  Cyrillic_ZHE                                    ] }; // j
     key <AD07> { [  Cyrillic_ef,   Cyrillic_EF                                    ] }; // f
