@@ -1,0 +1,105 @@
+diff -rupN /usr/share/X11/xkb/rules/evdev.lst new/rules/evdev.lst
+--- /usr/share/X11/xkb/rules/evdev.lst	2014-01-15 18:42:33.000000000 +0400
++++ new/rules/evdev.lst	2015-03-11 10:02:33.983730900 +0300
+@@ -570,6 +570,7 @@
+   phonetic_winkeys ru: Russian (phonetic WinKeys)
+   typewriter      ru: Russian (typewriter)
+   legacy          ru: Russian (legacy)
++  workman         ru: Russian (Workman)
+   typewriter-legacy ru: Russian (typewriter, legacy)
+   tt              ru: Tatar
+   os_legacy       ru: Ossetian (legacy)
+diff -rupN /usr/share/X11/xkb/rules/evdev.xml new/rules/evdev.xml
+--- /usr/share/X11/xkb/rules/evdev.xml	2014-01-15 18:42:33.000000000 +0400
++++ new/rules/evdev.xml	2015-03-11 10:05:17.543731476 +0300
+@@ -4237,6 +4237,15 @@
+         </variant>
+         <variant>
+           <configItem>
++            <name>workman</name>
++            <description>Russian (Workman)</description>
++            <languageList>
++              <iso639Id>rus</iso639Id>
++            </languageList>
++          </configItem>
++        </variant>
++        <variant>
++          <configItem>
+             <name>typewriter-legacy</name>
+             <description>Russian (typewriter, legacy)</description>
+           </configItem>
+diff -rupN /usr/share/X11/xkb/symbols/ru new/symbols/ru
+--- /usr/share/X11/xkb/symbols/ru	2014-01-15 18:42:33.000000000 +0400
++++ new/symbols/ru	2015-03-11 10:00:53.843730548 +0300
+@@ -675,3 +675,71 @@ include "ru(common)"
+     key <TLDE> {	[    bracketright,     bracketleft	]	};
+     key <BKSL> {        [       Cyrillic_io,   Cyrillic_IO      ]       };
+ };
++
++# Russian phonetic variant for workman layout
++
++partial default alphanumeric_keys
++xkb_symbols "workman" {
++    include "us(basic)"
++    name[Group1]= "Russian (Workman)";
++
++    key.type[group1]="FOUR_LEVEL";
++
++    // Alphanumeric section
++    key <TLDE> { [        grave,   asciitilde,      dead_tilde,       asciitilde ] };
++    key <AE01> { [            1,       exclam,     onesuperior      ] };
++    key <AE02> { [            2,           at,     twosuperior      ] };
++    key <AE03> { [            3,   numbersign,   threesuperior      ] };
++    key <AE04> { [            4,       dollar,    foursuperior      ] };
++    key <AE05> { [            5,      percent,    fivesuperior      ] };
++    key <AE06> { [            6,  asciicircum,     sixsuperior      ] };
++    key <AE07> { [            7,    ampersand,   sevensuperior      ] };
++    key <AE08> { [            8,     asterisk,   eightsuperior      ] };
++    key <AE09> { [            9,    parenleft,    ninesuperior      ] };
++    key <AE10> { [            0,   parenright,    zerosuperior      ] };
++    key <AE11> { [        minus,   underscore,          endash,           emdash ] };
++    key <AE12> { [        equal,         plus,        multiply,         division ] };
++
++    key <AD01> { [  Cyrillic_ya,   Cyrillic_YA                                    ] }; // q 
++    key <AD02> { [  Cyrillic_de,   Cyrillic_DE                                    ] }; // d 
++    key <AD03> { [  Cyrillic_er,   Cyrillic_ER                                    ] }; // r 
++    key <AD04> { [  Cyrillic_sha, Cyrillic_Sha,  Cyrillic_shcha,   Cyrillic_SHCHA ] }; // w 
++    key <AD05> { [  Cyrillic_be,   Cyrillic_BE                                    ] }; // b
++    key <AD06> { [ Cyrillic_zhe,  Cyrillic_ZHE                                    ] }; // j
++    key <AD07> { [  Cyrillic_ef,   Cyrillic_EF                                    ] }; // f
++    key <AD08> { [   Cyrillic_u,    Cyrillic_U,     Cyrillic_yu,      Cyrillic_YU ] }; // u
++    key <AD09> { [  Cyrillic_pe,   Cyrillic_PE                                    ] }; // p
++    key <AD10> { [    semicolon,         colon                                    ] }; // 
++    key <AD11> { [  bracketleft,     braceleft                                    ] };
++    key <AD12> { [ bracketright,    braceright                                    ] };
++    key <BKSL> { [    backslash,           bar                                    ] };
++
++    key <AC01> { [    Cyrillic_a,    Cyrillic_A                                       ] }; // a
++    key <AC02> { [   Cyrillic_es,   Cyrillic_ES                                       ] }; // s
++    key <AC03> { [  Cyrillic_che,  Cyrillic_CHE                                       ] }; // h
++    key <AC04> { [   Cyrillic_te,   Cyrillic_TE, Cyrillic_hardsign, Cyrillic_HARDSIGN ] }; // t 
++    key <AC05> { [  Cyrillic_ghe,  Cyrillic_GHE                                       ] }; // g
++    key <AC06> { [ Cyrillic_yeru, Cyrillic_YERU                                       ] }; // y
++    key <AC07> { [   Cyrillic_en,   Cyrillic_EN,        Cyrillic_e,        Cyrillic_E ] }; // n
++    key <AC08> { [   Cyrillic_ie,   Cyrillic_IE,       Cyrillic_io,       Cyrillic_IO ] }; // e
++    key <AC09> { [    Cyrillic_o,    Cyrillic_O                                       ] }; // o
++    key <AC10> { [    Cyrillic_i,    Cyrillic_I,   Cyrillic_shorti,   Cyrillic_SHORTI ] }; // i
++    key <AC11> { [    apostrophe,      quotedbl                                       ] }; 
++
++    key <AB01> { [  Cyrillic_ze,  Cyrillic_ZE                                       ] }; // z
++    key <AB02> { [  Cyrillic_ha,  Cyrillic_HA                                       ] }; // x
++    key <AB03> { [  Cyrillic_em,  Cyrillic_EM, Cyrillic_softsign, Cyrillic_SOFTSIGN ] }; // m
++    key <AB04> { [ Cyrillic_tse, Cyrillic_TSE                                       ] }; // c
++    key <AB05> { [  Cyrillic_ve,  Cyrillic_VE                                       ] }; // v
++    key <AB06> { [  Cyrillic_ka,  Cyrillic_KA                                       ] }; // k
++    key <AB07> { [  Cyrillic_el,  Cyrillic_EL                                       ] }; //
++    key <AB08> { [        comma,         less                                       ] };
++    key <AB09> { [       period,      greater                                       ] };
++    key <AB10> { [        slash,     question                                       ] };
++
++    key <CAPS> { [    BackSpace,    Escape,       BackSpace,           BackSpace ] };
++    key <LSGT> { [        minus,   underscore,          endash,           emdash ] };
++    key <SPCE> { [        space,        space,           space,     nobreakspace ] };
++
++    include "level3(ralt_switch)"
++};
