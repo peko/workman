@@ -18,6 +18,7 @@ This repo also contains a phonetic implementation for russian language, so it st
  * [Official git](https://github.com/deekayen/workman)
  * [Article](http://viralintrospection.wordpress.com/2010/09/06/a-different-philosophy-in-designing-keyboard-layouts/)
  * [Online trainer](http://klava.org/#eng_basic)
+ * [Remaping cursor](http://superuser.com/questions/96299/mapping-superhjkl-to-arrow-keys-under-x)
 
 ## Introduction ##
 
